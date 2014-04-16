@@ -1,0 +1,208 @@
+<aside class="sidebar">
+    <ul class="nav nav-tabs nav-stacked">
+        <li class="{% if app.request.attributes.get('_route') == 'homepage' %}active{% endif %}">
+            <a href="{{ path('homepage') }}">
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/ico-home.png') }}">
+                    </div>
+                    <div class="title">
+                        Home
+                    </div>
+                </div>
+
+                <div class="arrow">
+                    <div class="bubble-arrow-border"></div>
+                    <div class="bubble-arrow"></div>
+                </div>
+            </a>
+        </li>
+
+        <li class="{% if app.request.attributes.get('_route') == 'cv' %}active{% endif %}">
+            <a href="{{ path('cv') }}">
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/ico-user.gif') }}">
+                    </div>
+                    <div class="title">
+                        My CV
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div class="bubble-arrow-border"></div>
+                    <div class="bubble-arrow"></div>
+                </div>
+            </a>
+        </li>
+
+        <li class="">
+            <a href="https://twitter.com/Saro0h" target="_">
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/twitter.png') }}">
+                    </div>
+                    <div class="title">
+                        @Saro0h
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div class="bubble-arrow-border"></div>
+                    <div class="bubble-arrow"></div>
+                </div>
+            </a>
+        </li>
+
+        <li class="">
+            <a href="https://connect.sensiolabs.com/profile/saro0h">
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/slconnect.png') }}">
+                    </div>
+                    <div class="title">
+                        SensioLabs Connect
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div class="bubble-arrow-border"></div>
+                    <div class="bubble-arrow"></div>
+                </div>
+            </a>
+        </li>
+
+        <li class="">
+            <a href="https://github.com/saro0h">
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/github.png') }}">
+                    </div>
+                    <div class="title">
+                        Repositories
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div class="bubble-arrow-border"></div>
+                    <div class="bubble-arrow"></div>
+                </div>
+            </a>
+        </li>
+{#
+        <li class="">
+            <a href="notification.html">
+                <span class="badge badge-important m-badge-notification">6</span>
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/ico-notification.gif') }}">
+                    </div>
+                    <div class="title">
+                        Notification
+                    </div>
+                </div>
+
+                <div class="arrow">
+                    <div class="bubble-arrow-border"></div>
+                    <div class="bubble-arrow"></div>
+                </div>
+            </a>
+        </li>
+
+        <li class="">
+            <a href="form.html">
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/ico-setting.gif') }}">
+                    </div>
+                    <div class="title">
+                        Setting
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div class="bubble-arrow-border"></div>
+                    <div class="bubble-arrow"></div>
+                </div>
+            </a>
+        </li>
+
+        <li class="">
+            <a href="order.html">
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/ico-order.gif') }}">
+                    </div>
+                    <div class="title">
+                        Order
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div class="bubble-arrow-border"></div>
+                    <div class="bubble-arrow"></div>
+                </div>
+            </a>
+        </li>
+
+        <li class="">
+            <a href="media.html">
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/ico-media.gif') }}">
+                    </div>
+                    <div class="title">
+                        Media
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div class="bubble-arrow-border"></div>
+                    <div class="bubble-arrow"></div>
+                </div>
+            </a>
+        </li>
+
+        <li class="">
+            <a href="help.html">
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/ico-help.gif') }}">
+                    </div>
+                    <div class="title">
+                        Help
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div class="bubble-arrow-border"></div>
+                    <div class="bubble-arrow"></div>
+                </div>
+            </a>
+        </li>
+
+        <li class="">
+            <a href="#more">
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/ico-report.gif') }}">
+                    </div>
+                    <div class="title">
+                        Report
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div class="bubble-arrow-border"></div>
+                    <div class="bubble-arrow"></div>
+                </div>
+            </a>
+        </li>
+
+        <li class="">
+            <a href="#" id="btn-more">
+                <div>
+                    <div class="ico">
+                        <img src="{{ asset('bundles/luckybamboublog/img/ico/ico-more.png') }}">
+                    </div>
+                    <div class="title">
+                        More
+                    </div>
+                </div>
+            </a>
+
+        </li>
+#}
+    </ul>
+</aside>

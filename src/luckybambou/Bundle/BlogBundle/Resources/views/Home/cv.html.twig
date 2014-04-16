@@ -1,0 +1,235 @@
+{% extends '::layout.html.twig' %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('bundles/luckybamboublog/css/print.css') }}" media="print">
+    <link rel="stylesheet" href="{{ asset('bundles/luckybamboublog/css/style-cv.css') }}">
+{% endblock stylesheets %}
+
+{% block title %} <title>Lucky Bambou - My CV</title> {% endblock title %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="span8">
+            <div class="thumbnail span3">
+                <img src="/uploads/images/me.jpg" alt="" />
+            </div>
+            <div class="hero-unit span4">
+                <h1>Sarah KHALIL</h1>
+                <h2>IT Project Manager</h2>
+                <p>
+                    <i class="icon-map-marker"></i>Sensiolabs
+                </p>
+            </div>
+            <div class="page-header">
+            </div>
+
+            <p>
+                Project manager at SensioLabs , I'm in charge of teams from one to 4 developpers for projects usinf Symfony technology.
+                As a scrum master, I a lead the team to bring to a successful conclusion a project: close to my client I study request to understand needs and make sure that technically speaking it is possible. Then, I provide estimates to help controling budget. 
+                Agile methodology drives all projects I lead. 
+
+                <br /><br />Here are all tools I use and meetings I do: 
+                <ul>
+                    <li>Backlog</li>
+                    <li>Burndown chart</li>
+                    <li>Poker Planning meeting</li>
+                    <li>Sprint Planning meeting</li>
+                    <li>Daily Stand up meeting</li>
+                </ul>
+                I also make code reviews, and continue to develop on projects.
+            </p>
+            <p>
+                
+            </p>
+            <div  class="page-header noPrint">
+                <h2>Constellation</h2>
+            </div>
+            <div id="myCarousel" class="carousel noPrint">
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="active item">
+                        <img src="/uploads/images/the_agile_samurai.jpeg" alt="" />
+                        <div class="carousel-caption">
+                            <h4>Agile Methodology</h4>
+                            <p>The Agile methodology includes a lot of subsets : Kanban, Scrum, Lean… See that website : <a href="http://agilemethodology.org/">agilemethodology.org</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/uploads/images/symfony_logo.png" alt="" />
+                        <div class="carousel-caption">
+                            <h4>Symfony</h4>
+                            <p>Symfony is a PHP framework - See : <a href="http://symfony.com/">symfony.com</a> / Github : <a href="https://github.com/symfony/symfony">Symfony github</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel nav -->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            </div>
+            <div class="page-header">
+                <h2>Education</h2>
+            </div>
+            <dl>
+                <dt><i class="icon-asterisk"></i> Fall Semester 2011 - Ecole Polytechnique de Montréal</dt>
+                <dd>
+                    <ul>
+                        <li>- Team management</li>
+                        <li>- Advanced Web Development</li>
+                        <li>- Multimedia Technology (Image Processing, Sound processing)</li>
+                    </ul>
+                    I followed courses and had several projects.
+                </dd>
+                <dt><i class="icon-asterisk"></i> 2010 ~ 2011 - Year off</dt>
+                <dd>Right after my second year at ECE Paris (Engeneering school), I took a year off to figure out if finance which speciality I would take for my last year. I worked in the finance branch at Dexia Asset Management for 10 months.</dd>
+                <dt><i class="icon-asterisk"></i> Fall Semester 2008 - Concordia University Montréal</dt>
+                <dd>
+                    <ul>
+                        <li>- Electronic</li>
+                        <li>- C++ language</li>
+                        <li>- Mathematics</li>
+                        <li>- English communication</li>
+                    </ul>
+                </dd>
+                <dt><i class="icon-asterisk"></i> 2006 ~ 2012 - ECE Paris, Engineering school</dt>
+                <dd>Information systems, multimedia and audivisual. <a href="http://www.ece.fr">www.ece.fr</a> </dd>
+                <dt><i class="icon-asterisk"></i> 2006 - Scientific high school diploma (Lycée A. Renoir) Asnières/seine</dt>
+                <dd>Information systems, multimedia and audivisual. <a href="http://www.ece.fr">www.ece.fr</a> </dd>
+            </dl>
+
+            <div class="page-header">
+                <h2>Work History</h2>
+            </div>
+            <dl>
+                <dt><i class="icon-asterisk"></i> <u>IT Project manager</u> - <a href="http://www.sensiolabs.com">SensioLabs</a> | Août 2012 ~ Today
+                </dt>
+                <dd>
+                From call for tenders to Deliver final product : 
+                    <ul>
+                        <li>Specifications</li>
+                        <li>Conception</li>
+                        <li>Sprint Construction : User stories / Backlog / Burndown chart</li>
+                        <li>Follow up with developers</li>
+                        <li>Code review</li>
+                        <li>Acceptance tests</li>
+                        <li>Pair programming</li>
+                        <li>Financial monitoring</li>
+                    </ul>
+                Technologies : PHP 5.4, Symfony 2.1, Doctrine 2, Twig, jQuery.
+                Various tasks : Assistance to recruitment, development for intern project.
+                </dd>
+
+                <br />
+
+                <dt><i class="icon-asterisk"></i> <u>Assistant IT Project Manager / Developer</u> - <a href="http://www.sensiolabs.com">SensioLabs</a> / <a href="http://www.extreme-sensio.com/">Extrême Sensio</a> | Octobre 2010 ~ Juillet 2011 </dt>
+                <dd>
+                Development of Web applications media, respecting the standards of programming, within a team of 4 developers.<br />
+                Technologies: Symfony 1.4, Doctrine 1, Twig, jQuery.
+                <br /><br />
+                Assistant project manager: follow up of developments, keeping up to date tools (backlog and burndown chart), writing of user stories.
+                </dd>
+
+                <br />
+
+                <dt><i class="icon-asterisk"></i> <u>Assistant Project Manager</u> - <a href="https://www.dexia-am.com/">Dexia Asset Management</a> | Octobre 2010 ~ Juillet 2011 </dt>
+                <dd>
+                    International voluntary service in Company (VIE), in a team of four persons - Development of a critical application for financial reporting. - Follow-up of project, coordination of the team - Follow-up of the communication to the customer.
+                </dd>
+
+                <br />
+
+                <dt><i class="icon-asterisk"></i> <u>Web developer</u> - <a href="https://www.e-citizen.com">E Citizen</a> | Avril 2010 ~ Septembre 2010</dt>
+                <dd>
+                    Revision of the e-commerce www.e-citizen.com site, integrated(joined) into a team of three persons. Development PHP (framework intern), MySQL (via ORM doctrine), Javascript, CSS, Smarty.
+                </dd>
+                
+                <br />
+
+                <dt><i class="icon-asterisk"></i> <u>Domain assistant</u> - <a href="http://www.bouygues-construction.com/">Structis - Bouygues Construction</a> | Juin 2009 ~ Août 2009</dt>
+                <dd>
+                    Creation of an intranet on the dematerialization in the answers to call for tenders (wikimédia).
+                </dd>
+
+                <br />
+
+                <dt><i class="icon-asterisk"></i> <u>Seasonal webmaster</u> - <a href="http://www.amf-france.org/">Autorité des Marchés Financiers (AMF)</a> | Août 2008 ~ Septembre 2008</dt>
+                <dd>
+                    Creation of an intranet manager : a quizz to evaluate manager's competences.
+                </dd>
+
+                <br />
+
+                <dt><i class="icon-asterisk"></i>  <u>Seasonal webmaster/secretary</u> - <a href="http://www.artandblind.fr/">Art and Blind</a> | Juin 2008 ~ Août 2007/2008</dt>
+                <dd>
+                    Creation of the Web site of the company: www.artandblind.fr
+                    Implementation of a small computer network - administrative Tasks - reception of the customers to the store
+                </dd>
+
+                <br />
+
+                <dt><i class="icon-asterisk"></i> <u>Computer maintenance technician</u> - <a href="http://www.xnetconseils.fr/">X-net Conseils</a> | Juin 2007 ~ Juillet 2007</dt>
+                <dd>
+                    IT installation of computer stations: moving, installation and configuration of software and admixture of network grips. Deployment of ghosts. Information feedback to the persons in charge of the incidents.
+                </dd>
+            </dl>
+
+            <div class="page-header">
+                <h2>Projects and realisations</h2>
+            </div>
+            <dl>
+                <dt><i class="icon-asterisk"></i> 2011 ~ 2012 - Final project study (Six persons) - Project manager</dt>
+                <dd>
+                    Designing a web application consisting in intelligent aggregation and content of social networking design and architecture of the application on a semester (team dispatched in Paris and Montreal). Application development in a month - Symfony 2 - Doctrine - Twig - Javascript - Twitter Oauth 2
+                </dd>
+                <dt><i class="icon-asterisk"></i> 2009 ~ 2010 - Multidisciplinary project team (Six persons)</dt>
+                <dd>
+
+                    Project Manager - Design of an indoor localization software, in collaboration with the company NetVitesse the entire school year. Flex, Spring (Java Framework) and Hibernate. Specification, architecture, project management, communication in English.
+                </dd>
+            </dl>
+
+            <div class="page-header">
+                <h2>Miscellaneous</h2>
+            </div>
+            <dl>
+                <dt><i class="icon-asterisk"></i> Languages</dt>
+                <dd>
+                    English : fluent and technical - TOEIC:810 - (2 semesters in Montreal, Canada)
+                    Russian : school basis
+                </dd>
+                <dt><i class="icon-asterisk"></i> Interests</dt>
+                <dd>
+                    Passionate by new technologies, cinema, video games.
+                </dd>
+            </dl>
+
+        </div>
+        <div class="span3">
+            <h2>Contact</h2>
+            <p><i class="icon-envelope"></i> mkhalil.sarah@gmail.com</p>
+            <p><i class="icon-signal"></i> +33 6 07 96 83 20</p>
+
+            <a href="/uploads/CV-Sarah_Khalil.pdf" class="btn btn-large noPrint" id="printBtn"><i class="icon-print"></i> Print</a>
+            <a href="/uploads/CV-Sarah_Khalil.pdf" class="btn btn-large noPrint" id="downBtn"><i class="icon-download"></i> Download</a>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <footer>
+            <p>
+                <i class="icon-envelope"></i> mkhalil.sarah@gmail.com &nbsp;
+                <i class="icon-signal"></i> +33 6 07 96 83 20 &nbsp;
+                <i class="icon-map-marker"></i>
+                Paris - France
+            </p>
+        </footer>
+    </div>
+    {% block js %}
+        <script src="{{ asset('bundles/luckybamboublog/js/jquery.js') }}"></script>
+        <script src="{{ asset('bundles/luckybamboublog/js/bootstrap.js') }}"></script>
+        <script src="{{ asset('bundles/luckybamboublog/js/scripts.js') }}"></script>
+    {% endblock js%}
+
+
+{% endblock content %}
