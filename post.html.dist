@@ -9,7 +9,7 @@
     <meta name="author" content="Sarah Khalil">
     <meta name="keywords" content="Symfony2, PHP, Exercises, Code, Blog, Sarah, Khalil, Engineer" />
 
-    <title>Saro0h's blog</title>
+    <title>Saro0h's blog - Katas</title>
     <link href="../images/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
     <!-- Bootstrap Core CSS -->
@@ -59,14 +59,22 @@
     <div class="container">
 
         <div class="page-header">
-          <h1>Titre <small>Descriptif</small></h1>
-          <a class="btn btn-primary btn-large pull-right" href="/index.html">Go back to homepage</a>
+          <h1 id="top-page">
+                Titre
+                <small>Sous-titre.</small>
+            </h1>
         </div>
+        <ol class="breadcrumb">
+          <li><a href="../index.html">Home</a></li>
+          <li class="active">Page</li>
+        </ol>
         <hr>
 
         <!-- Page Features -->
-        <div class="row text-center">
-           Content.
+        <div class="row text-left">
+           Contenu.
+
+            <a class="btn btn-primary btn-large pull-right" href="#top-page">Retourner à la page d'accueil</a>
         </div>
         <!-- /.row -->
 
